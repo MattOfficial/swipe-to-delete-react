@@ -37,8 +37,12 @@
 .swipe-to-delete .js-transition-cancel {
   left: 0 !important;
 }
+
+/* Remove this section. As long as this stays our styles will be all fucked up
+Write custom css instead. */
+
 /* Custom styles */
-.swipe-to-delete .js-delete {
+/* .swipe-to-delete .js-delete {
   background: #3355eb;
 }
 .swipe-to-delete .js-delete svg {
@@ -61,4 +65,4 @@
 .swipe-to-delete .js-transition-cancel {
   transition-duration: 0.7s;
   transition-timing-function: ease-in-out;
-}
+} */
